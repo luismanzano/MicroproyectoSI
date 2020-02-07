@@ -1,14 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Archivo+Black|Bebas+Neue|Rajdhani&display=swap');
+
+*{
+    border: 1px solid black;
+    box-sizing: border-box !important;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+}
+
+h1{
+    font-size: 4rem;
+    font-family: "Archivo Black", sans-serif;
+}
+
+h3{
+    font-family: "Abel", sans-serif;
+}
+
+.padding {
+    padding: 0 8rem;
+}
+
+
 nav{
     display: grid;
     grid-template-columns: 50% 10% 10% 10% 10% 10%;
+    font-family: "Rajdhani", sans-serif;
+    height: 4rem;
+    color: white;
+    background-color: black;
+    padding-top: 2rem;
+    align-items: center;
+}
+
+nav>a, nav>a:link, nav>a:visited{
+    font-size: 1.2rem;
+    color:  white;
+    text-decoration: none;
 }
 
 .grid {
     display: grid;
-    grid-template:  30% 70% / 40% 60%;
+    grid-template:  35% 55% / 55% 40%;
     grid-template-areas: "title image"
                          "subtitle image";
+    height: 40rem;
+    background-image: url("img/hero.jpg");
+    background-position: center;
+    background-size: contain;
+    color: white;
+    padding-top: 7rem;
+    text-shadow: 2px 2px #262626;
 }
+
+
 
 .title{
     grid-area: title;
@@ -22,3 +71,9 @@ grid-area: subtitle;
 grid-area: image;
 
 }
+
+
+#profile{
+    max-height: 30rem;
+}
+
