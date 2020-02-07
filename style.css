@@ -1,0 +1,24 @@
+nav{
+    display: grid;
+    grid-template-columns: 50% 10% 10% 10% 10% 10%;
+}
+
+.grid {
+    display: grid;
+    grid-template:  30% 70% / 40% 60%;
+    grid-template-areas: "title image"
+                         "subtitle image";
+}
+
+.title{
+    grid-area: title;
+}
+
+.subtitle{
+grid-area: subtitle;
+}
+
+.image{
+grid-area: image;
+
+}
