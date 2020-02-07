@@ -10,12 +10,9 @@ html{
     color: white;
 }
 
-<<<<<<< HEAD
-=======
 body{
     background-color: black;
 }
->>>>>>> contact
 
 h1{
     font-size: 5rem;
@@ -130,8 +127,7 @@ grid-area: subtitle;
 
 .image{
 grid-area: image;
-box-shadow: 0px 10px 47px 10px rgba(0,0,0,0.75);
-width: 350px;
+height: 1000px;
 
 }
 
@@ -192,7 +188,7 @@ width: 350px;
     grid-template-areas: "title image"
                          "subtitle image";
     height: 40rem;
-    background-image: url("img/hero.jpg");
+    background-image: url("img/hero_edited.jpg");
     background-position: center;
     background-size: contain;
     color: white;
