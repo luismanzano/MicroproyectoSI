@@ -74,7 +74,7 @@ nav>a, nav>a:link, nav>a:visited{
     grid-template-areas: "title image"
                          "subtitle image";
     color: white;
-    column-gap: 4rem;
+    column-gap: 1rem;
 }
 
 .portfolioItem{
@@ -116,6 +116,12 @@ grid-area: image;
 
 }
 
+.barr{
+    height: 15px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(95,9,121,1) 0%, rgba(0,78,255,1) 100%);
+}
+
 #home {
     display: grid;
     grid-template:  35% 55% / 55% 40%;
@@ -136,10 +142,41 @@ grid-area: image;
 }
 
 #about{
-    background-color: #AEB8B3;
-    color: #262626;
+    background-color: black;
+    color: white;
     display: grid;
     padding-top: 5rem;
+    align-items: center;
+    font-family: "Abel", sans-serif;
+}
+
+#skills{
+    background-color: black;
+}
+
+#about img{
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#about p{
+    font-size: 1.3rem;
+}
+
+#barr1{
+    width: 90%;
+}
+#barr2{
+    width: 80%;
+}
+#barr3{
+    width: 60%;
+}
+#barr4{
+    width: 40%;
+}
+#barr5{
+    width: 75%;
 }
 
 
