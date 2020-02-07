@@ -6,7 +6,8 @@
 }
 
 html{
-    font-size: 16px;
+    font-size: 18px;
+    color: white;
 }
 
 body{
@@ -15,6 +16,15 @@ body{
 h1{
     font-size: 4rem;
     font-family: "Archivo Black", sans-serif;
+}
+
+h2{
+    font-family: "Abel", sans-serif;
+    font-size: 2.5rem;
+}
+
+.center{
+    text-align: center;
 }
 
 h3{
@@ -43,19 +53,52 @@ nav>a, nav>a:link, nav>a:visited{
     text-decoration: none;
 }
 
-.grid {
+
+
+.grid{
     display: grid;
-    grid-template:  35% 55% / 55% 40%;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.grid{
+    
+    grid-template:  1fr / 40% 60%;
     grid-template-areas: "title image"
                          "subtitle image";
-    height: 40rem;
-    background-image: url("img/hero.jpg");
-    background-position: center;
-    background-size: contain;
     color: white;
-    padding-top: 7rem;
-    text-shadow: 2px 2px #262626;
     column-gap: 4rem;
+}
+
+.portfolioItem{
+    padding: 1% 1%;
+    border: 2px solid white;
+    margin: 1.3rem 3rem;
+    height: 20rem;
+    flex-basis: 20%;
+}
+
+.portfolioItem>img{
+    max-height: 4rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolioItem>h3{
+    font-family: "Abel", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.portfolioItem>p{
+    font-family: "Abel", sans-serif;
 }
 
 
@@ -72,6 +115,34 @@ grid-area: subtitle;
 grid-area: image;
 
 }
+
+#home {
+    display: grid;
+    grid-template:  35% 55% / 55% 40%;
+    grid-template-areas: "title image"
+                         "subtitle image";
+    height: 40rem;
+    background-image: url("img/hero.jpg");
+    background-position: center;
+    background-size: contain;
+    color: white;
+    padding-top: 7rem;
+    text-shadow: 2px 2px #262626;
+    column-gap: 4rem;
+}
+
+#work{
+    background-color: black;
+}
+
+#about{
+    background-color: #AEB8B3;
+    color: #262626;
+    display: grid;
+    padding-top: 5rem;
+}
+
+
 
 
 #profile{
