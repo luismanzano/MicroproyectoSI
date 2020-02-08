@@ -207,12 +207,13 @@ height: 1000px;
     grid-template:  35% 55% / 55% 40%;
     grid-template-areas: "title image"
                          "subtitle image";
-    height: 40rem;
+    height: 100vh;
     background-image: url("img/hero_edited.jpg");
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     color: white;
-    padding-top: 7rem;
+    padding-top: 12rem;
     text-shadow: 2px 2px #262626;
     column-gap: 4rem;
 }
